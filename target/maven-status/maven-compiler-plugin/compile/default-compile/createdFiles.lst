@@ -1,0 +1,11 @@
+com\moofuel\model\ClaimsAggregator.class
+com\moofuel\testData\TestDataGenerator.class
+com\moofuel\core\App.class
+com\moofuel\model\Subservice.class
+com\moofuel\model\Service.class
+com\moofuel\model\Applicate.class
+com\moofuel\config\SpringMongoConfig.class
+com\moofuel\javaFX\BarChartHistogram.class
+com\moofuel\model\Person.class
+com\moofuel\model\Department.class
+com\moofuel\model\Claim.class
