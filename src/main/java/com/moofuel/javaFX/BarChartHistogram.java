@@ -29,7 +29,7 @@ public class BarChartHistogram {
 
     public void display(int claimantCategory) {
 
-        //Функция агрегации, возвращающая количество заявок по дням
+        //Функция агрегации, возвращающая количество заявок по дням по указанному типу заяявителя claimantCategory
         ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringMongoConfig.class);
         MongoOperations mongoOperations = (MongoOperations) ctx.getBean("mongoTemplate");
         TypedAggregation<Applicate> aggregation = newAggregation(Applicate.class,
