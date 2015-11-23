@@ -81,7 +81,7 @@ public class App extends Application {
 
         TableColumn<Applicate, String> serviceIdColumn = new TableColumn<>("Идентификатор услуги");
         serviceIdColumn.setMinWidth(50);
-        serviceIdColumn.setCellValueFactory(new PropertyValueFactory<Applicate, String>("serviceId"));
+        serviceIdColumn.setCellValueFactory(new PropertyValueFactory<Applicate, String>("serviceCode"));
 
         TableColumn<Applicate, String> subserviceNameColumn = new TableColumn<>("Название подуслуги");
         subserviceNameColumn.setMinWidth(50);
